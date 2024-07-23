@@ -8,6 +8,7 @@ public class Lab085 {
             System.out.println("Inside the loop ");
         }
         System.out.println("Outside, it will be executed always ->"+ a);
+        // Debug -> checking the code line by line
     }
 }
 
