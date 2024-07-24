@@ -11,7 +11,7 @@ public class Lab094 {
         System.out.println("Enter the Char, I will tell you, if it is vowel or not!");
         char user_input = sc.next().charAt(0);
 
-        switch (user_input){
+        /*switch (user_input){
             case 'a':
                 System.out.println("It is a vowel");
                 break;
@@ -30,6 +30,11 @@ public class Lab094 {
             default:
                 System.out.println("It is not a vowel, it is Consonant");
                 break;
+                */
+
+                switch (user_input){
+                    case 'a', 'e', 'i', 'o', 'u' -> System.out.println("It is a Vowel");
+                    default -> System.out.println("Not a vowel,  It is consonant");
+                }
         }
     }
-}
