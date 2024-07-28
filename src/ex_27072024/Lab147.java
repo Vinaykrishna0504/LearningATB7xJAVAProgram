@@ -1,5 +1,7 @@
 package ex_27072024;
 
+import Assignments.Second_Max_Salary;
+
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
@@ -10,7 +12,7 @@ public class Lab147 {
         int[] salaries = {7, 10, 4, 13, 25, 18, 9, 8, 17};
         // Infosys - Automation - don't use max function
         int max = 1;
-        int min = salaries[0];
+        int min = salaries[0];;
         for (int i = 0; i < salaries.length; i++) {
             if(salaries[i] > max){
                 max = salaries[i];
@@ -18,6 +20,9 @@ public class Lab147 {
             if(min > salaries[i]){
                 min = salaries[i];
             }
+
+
+
 
 
             // Sort -> find the last one
