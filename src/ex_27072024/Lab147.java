@@ -1,7 +1,5 @@
 package ex_27072024;
 
-import Assignments.Second_Max_Salary;
-
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
