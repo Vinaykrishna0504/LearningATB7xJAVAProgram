@@ -1,4 +1,4 @@
-package ex_10082024.polymorphism;
+package ex_10082024.polymorphism.MethodOverloading;
 
 public class Lab181 {
     //Polymorphism

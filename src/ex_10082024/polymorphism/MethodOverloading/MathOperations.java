@@ -1,4 +1,4 @@
-package ex_10082024.polymorphism;
+package ex_10082024.polymorphism.MethodOverloading;
 
 public class MathOperations {
 
@@ -35,5 +35,11 @@ public class MathOperations {
     String add(String a, int b){
         return a + b;
     }
+
+    MathOperations(){}
+    MathOperations(int a){}
+    MathOperations(int a, int b){}
+    MathOperations(int a, int b, int c){}
+    MathOperations(int a, int b, int c, int d){}
 
 }
